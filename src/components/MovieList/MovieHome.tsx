@@ -2,11 +2,7 @@ import React,{useState} from 'react'
 import MovieList from './MovieList'
 import { ListHeadingStyle,HeaderStyle,InputBoxStyle } from '../Styles/Card.style';
 
-type Props = {
-
-}
-
-const MovieHome = (props: Props) => {
+const MovieHome = () => {
     const [input, setInput] = useState<string>("")
   return (
     <HeaderStyle>
