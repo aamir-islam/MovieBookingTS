@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import Card from './Card';
 import PNF from './PNF'
 import { CardDivStyle } from "../Styles/Card.style";
+import {searchUrl , apiUrl} from '../constants/global'
 
 type Props = {
   input : string
@@ -14,10 +15,6 @@ type MovieData = {
   title:string,
   poster_path : string
 }
-const API_KEY = "api_key=336ff2d06750b1a068e736a78e81d04f";
-const BASE_URL = "https://api.themoviedb.org/3";
-const API_URL = BASE_URL + "/discover/movie?sort_by=popularity.desc&" + API_KEY;
-const searchURL = BASE_URL + "/search/movie?" + API_KEY + "&query=";
 
 const MovieList = ({input}: Props) => {
 
@@ -32,9 +29,9 @@ const MovieList = ({input}: Props) => {
   };  
   useEffect(()=>{
     if (input.length === 0) {
-      GetMovie(API_URL);
+      GetMovie(apiUrl);
     } else {
-      GetMovie(searchURL + input);
+      GetMovie(searchUrl + input);
     }
 
   },[input])
