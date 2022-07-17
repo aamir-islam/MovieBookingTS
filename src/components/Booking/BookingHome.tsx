@@ -28,19 +28,19 @@ const data: Data = {
 
 const BookingHome = () => {
   const state = useParams();
-  const [tempSeatArr, setTempSeatArr] = useState<string[]>([]);
+  const [seatSelector, setSeatSelector] = useState<string[]>([]);
   const [visible, setVisible] = useState<Boolean>(false);
   const [selectedSeat, setSelectedSeat] = useState<string | null>("");
 
   const ModalHandler = () => {
     setVisible(true);
-    if (tempSeatArr.length === 0 || tempSeatArr.length > 10) {
+    if (seatSelector.length === 0 || seatSelector.length > 10) {
       alert("please select the seats in range (1-10) ");
       setVisible(false);
     } else {
       localStorage.setItem(
         JSON.stringify(state.id),
-        selectedSeat + tempSeatArr.toString()
+        selectedSeat + seatSelector.toString()
       );
       setSelectedSeat(localStorage.getItem(JSON.stringify(state.id)));
       setVisible(true);
@@ -48,14 +48,23 @@ const BookingHome = () => {
   };
 
   const SeatHandler = (key: string) => {
-    if (tempSeatArr.includes(key)) {
-      let newSeat = tempSeatArr.filter((item: string) => {
+    if(selectedSeat?.includes(key)){
+      alert("already selected")
+      let filterSeats = seatSelector.filter((item:string) => {
+        return selectedSeat.includes(key) !== seatSelector.includes(item);
+      });
+      setSeatSelector(filterSeats);
+    }
+    else{
+    if (seatSelector.includes(key)) {
+      let newSeat = seatSelector.filter((item: string) => {
         return key !== item;
       });
-      setTempSeatArr(newSeat);
+      setSeatSelector(newSeat);
     } else {
-      setTempSeatArr((prvTempSeatArr) => [...prvTempSeatArr, key]);
+      setSeatSelector((prvSeatSelector) => [...prvSeatSelector, key]);
     }
+  }
   };
 
   useEffect(() => {
@@ -92,7 +101,7 @@ const BookingHome = () => {
                         case true:
                           return <img src={BlackSeat} alt="blackSeat" />;
                         default:
-                          switch (tempSeatArr.includes(item + set)) {
+                          switch (seatSelector.includes(item + set)) {
                             case true:
                               return <img src={BlueSeat} alt="blueSeat" />;
                             default:
@@ -115,8 +124,8 @@ const BookingHome = () => {
       {visible && (
         <Modal
           ModalVisibleFun={setVisible}
-          SeatTempFun={setTempSeatArr}
-          seatArr={tempSeatArr}
+          SeatTempFun={setSeatSelector}
+          seatArr={seatSelector}
         />
       )}
     </SeatMainDivStyle>
