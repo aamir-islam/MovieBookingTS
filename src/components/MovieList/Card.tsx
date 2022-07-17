@@ -19,23 +19,16 @@ type ApiData = {
   id: number;
 };
 
-
 const Card = ({ data }: Props) => {
   return (
     <CardsStyle>
-      {data.map((item: ApiData , index) => {
+      {data.map((item: ApiData, index) => {
         return (
           <CardStyle key={index}>
-            {
-              item.poster_path ? <CardsImageStyle src={imgUrl + item.poster_path} alt="path" /> :
-              <CardsImageStyle src={fakeImg} alt="path" />
-
-            }
+            <CardsImageStyle src={item.poster_path ? imgUrl + item.poster_path : fakeImg} alt="path" />
             <TitleStyle>{item.title}</TitleStyle>
             <NavLink to={`/booking/${item.id}${item.poster_path}`}>
-            <ButtonStyle>    
-              Book Now
-            </ButtonStyle>
+              <ButtonStyle>Book Now</ButtonStyle>
             </NavLink>
           </CardStyle>
         );
