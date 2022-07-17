@@ -11,7 +11,8 @@ import {
   SeatStyle,
   SeatTableStyle,
   SeatButtonStyle,
-  DigitStyle,
+  ListStyle,
+  SeatListStyle,
   SeatRowStyle,
 } from "../Styles/Seat.style";
 
@@ -67,18 +68,19 @@ const BookingHome = () => {
     <SeatMainDivStyle>
       <SeatImgStyle src={vector} alt="vector" />
       <SeatTableStyle>
-        <DigitStyle>
+        <ListStyle>
           {ColumnNo.map((ColNo) => {
-            return <article key={ColNo}>{ColNo}</article>;
+            return <li key={ColNo}>{ColNo}</li>;
           })}
-        </DigitStyle>
+        </ListStyle>
         {data.id.map((item) => {
           return (
             <SeatStyle key={item}>
               <SeatRowStyle>{item}</SeatRowStyle>
+              <SeatListStyle>
               {data.seat.map((set: number) => {
                 return (
-                  <div
+                  <li
                     key={set}
                     onClick={() => {
                       SeatHandler(item + set);
@@ -98,9 +100,10 @@ const BookingHome = () => {
                           }
                       }
                     })()}
-                  </div>
+                  </li>
                 );
               })}
+              </SeatListStyle>
             </SeatStyle>
           );
         })}
