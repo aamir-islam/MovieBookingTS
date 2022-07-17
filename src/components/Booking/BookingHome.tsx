@@ -15,10 +15,7 @@ import {
   SeatRowStyle,
 } from "../Styles/Seat.style";
 
-type Props = {};
-
 const ColumnNo: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
 interface Data {
   id: string[];
   seat: number[];
@@ -28,9 +25,8 @@ const data: Data = {
   seat: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
 };
 
-
-const BookingHome = (props: Props) => {
-  const state = useParams()
+const BookingHome = () => {
+  const state = useParams();
   const [tempSeatArr, setTempSeatArr] = useState<string[]>([]);
   const [visible, setVisible] = useState<Boolean>(false);
   const [selectedSeat, setSelectedSeat] = useState<string | null>("");
@@ -46,7 +42,6 @@ const BookingHome = (props: Props) => {
         selectedSeat + tempSeatArr.toString()
       );
       setSelectedSeat(localStorage.getItem(JSON.stringify(state.id)));
-      console.log("fun", selectedSeat);
       setVisible(true);
     }
   };
@@ -62,8 +57,6 @@ const BookingHome = (props: Props) => {
     }
   };
 
- 
-
   useEffect(() => {
     if (localStorage.getItem(JSON.stringify(state.id)) !== null) {
       setSelectedSeat(localStorage.getItem(JSON.stringify(state.id)));
@@ -71,7 +64,7 @@ const BookingHome = (props: Props) => {
   }, [state.id]);
 
   return (
-    <SeatMainDivStyle >
+    <SeatMainDivStyle>
       <SeatImgStyle src={vector} alt="vector" />
       <SeatTableStyle>
         <DigitStyle>
@@ -91,14 +84,20 @@ const BookingHome = (props: Props) => {
                       SeatHandler(item + set);
                     }}
                   >
-                    {selectedSeat !== null &&
-                    selectedSeat.includes(item + set) ? (
-                      <img src={BlackSeat} alt="whiteSeat" />
-                    ) : tempSeatArr.includes(item + set) ? (
-                      <img src={BlueSeat} alt="blackSeat" />
-                    ) : (
-                      <img src={WhiteSeat} alt="blackSeat" />
-                    )}
+                    {(() => {
+                      switch (selectedSeat !== null &&
+                        selectedSeat.includes(item + set)) {
+                        case true:
+                          return <img src={BlackSeat} alt="blackSeat" />;
+                        default:
+                          switch (tempSeatArr.includes(item + set)) {
+                            case true:
+                              return <img src={BlueSeat} alt="blueSeat" />;
+                            default:
+                              return <img src={WhiteSeat} alt="whiteSeat" />;
+                          }
+                      }
+                    })()}
                   </div>
                 );
               })}
@@ -109,14 +108,14 @@ const BookingHome = (props: Props) => {
           Booking Confirm
         </SeatButtonStyle>
       </SeatTableStyle>
-          
-        {visible && 
-          <Modal
-            ModalVisibleFun={setVisible}
-            SeatTempFun={setTempSeatArr}
-            seatArr={tempSeatArr} 
-          />
-        }
+
+      {visible && (
+        <Modal
+          ModalVisibleFun={setVisible}
+          SeatTempFun={setTempSeatArr}
+          seatArr={tempSeatArr}
+        />
+      )}
     </SeatMainDivStyle>
   );
 };
