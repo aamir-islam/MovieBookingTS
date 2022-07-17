@@ -2,7 +2,8 @@ import React from "react";
 import {
   ModelStyle,
   ImageStyles,
-  ModeldataFlex,
+  ModelDataFlex,
+  ModelScreenStyle,
   HeadingStyle,
   Heading5Style,
   CloseButton,
@@ -34,6 +35,7 @@ const Modal = ({
   };
 
   return (
+    <ModelScreenStyle>  
     <ModelStyle>
       <CloseButton>
         <img onClick={modalClose} src={close} alt="close" />
@@ -41,18 +43,18 @@ const Modal = ({
       <HeadingStyle>Thank you for booking</HeadingStyle>
       <Heading5Style>Order Summary</Heading5Style>
       <article>
-        <ModeldataFlex>
+        <ModelDataFlex>
           <article>
             <ImageStyles src={imgUrl+state.path} alt="movie" />
           </article>
           <article>
             <SeatHeadingH3>Seats:</SeatHeadingH3>
-            <ModeldataFlex>
+            <ModelDataFlex>
               {seatArr.map((SeatNo, index) => (
                 <SeatHeading key={index}>{SeatNo},</SeatHeading>
               ))}
-            </ModeldataFlex>
-            <ModeldataFlex>
+            </ModelDataFlex>
+            <ModelDataFlex>
               <article>
                 <SeatHeading>{seatArr.length}*250:</SeatHeading>
                 <span>SGST(12%):</span>
@@ -65,16 +67,17 @@ const Modal = ({
                 <br />
                 <span>{SGST}</span>
               </article>
-            </ModeldataFlex>
+            </ModelDataFlex>
             <hr />
-            <ModeldataFlex>
+            <ModelDataFlex>
               <SeatHeading>Total:</SeatHeading>
               <SeatHeading>{total + SGST * 2}</SeatHeading>
-            </ModeldataFlex>
+            </ModelDataFlex>
           </article>
-        </ModeldataFlex>
+        </ModelDataFlex>
       </article>
     </ModelStyle>
+    </ModelScreenStyle>  
   );
 };
 

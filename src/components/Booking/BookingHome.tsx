@@ -11,7 +11,6 @@ import {
   SeatStyle,
   SeatTableStyle,
   SeatButtonStyle,
-  ModelScreenStyle,
   DigitStyle,
   SeatRowStyle,
 } from "../Styles/Seat.style";
@@ -63,13 +62,7 @@ const BookingHome = (props: Props) => {
     }
   };
 
-  let white = {
-    backgroundColor: "white",
-  };
-  let grey = {
-    pointerEvents: "none",
-    backgroundColor: " rgba(229, 229, 229, 0.6)",
-  };
+ 
 
   useEffect(() => {
     if (localStorage.getItem(JSON.stringify(state.id)) !== null) {
@@ -78,7 +71,7 @@ const BookingHome = (props: Props) => {
   }, [state.id]);
 
   return (
-    <SeatMainDivStyle style={!visible ? white : grey}>
+    <SeatMainDivStyle >
       <SeatImgStyle src={vector} alt="vector" />
       <SeatTableStyle>
         <DigitStyle>
@@ -116,19 +109,14 @@ const BookingHome = (props: Props) => {
           Booking Confirm
         </SeatButtonStyle>
       </SeatTableStyle>
-      <ModelScreenStyle
-        style={visible ? { pointerEvents: "auto" } : { pointerEvents: "none" }}
-      >
-        {!visible ? (
-          ""
-        ) : (
+          
+        {visible && 
           <Modal
             ModalVisibleFun={setVisible}
             SeatTempFun={setTempSeatArr}
-            seatArr={tempSeatArr}
+            seatArr={tempSeatArr} 
           />
-        )}
-      </ModelScreenStyle>
+        }
     </SeatMainDivStyle>
   );
 };

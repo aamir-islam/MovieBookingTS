@@ -53,6 +53,3 @@ export const SeatButtonStyle = styled.button`
   margin: 125px 450px 152px 450px;
 `;
 
-export const ModelScreenStyle = styled.article`
-  background-color: #e5e5e5;
-`;
