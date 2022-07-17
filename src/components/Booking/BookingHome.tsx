@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import vector from "../Assets/Vector.png";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import BlackSeat from "../Assets/BlackSeat.svg";
 import WhiteSeat from "../Assets/whiteSeat.svg";
 import BlueSeat from "../Assets/blueSeat.svg";
@@ -28,13 +28,10 @@ const data: Data = {
   id: ["A", "B", "C", "D"],
   seat: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
 };
-interface UserProp {
-  MovieId: number;
-  path: string;
-}
+
 
 const BookingHome = (props: Props) => {
-  const state = useLocation().state as UserProp;
+  const state = useParams()
   const [tempSeatArr, setTempSeatArr] = useState<string[]>([]);
   const [visible, setVisible] = useState<Boolean>(false);
   const [selectedSeat, setSelectedSeat] = useState<string | null>("");
@@ -46,10 +43,10 @@ const BookingHome = (props: Props) => {
       setVisible(false);
     } else {
       localStorage.setItem(
-        JSON.stringify(state.MovieId),
+        JSON.stringify(state.id),
         selectedSeat + tempSeatArr.toString()
       );
-      setSelectedSeat(localStorage.getItem(JSON.stringify(state.MovieId)));
+      setSelectedSeat(localStorage.getItem(JSON.stringify(state.id)));
       console.log("fun", selectedSeat);
       setVisible(true);
     }
@@ -75,10 +72,10 @@ const BookingHome = (props: Props) => {
   };
 
   useEffect(() => {
-    if (localStorage.getItem(JSON.stringify(state.MovieId)) !== null) {
-      setSelectedSeat(localStorage.getItem(JSON.stringify(state.MovieId)));
+    if (localStorage.getItem(JSON.stringify(state.id)) !== null) {
+      setSelectedSeat(localStorage.getItem(JSON.stringify(state.id)));
     }
-  }, [state.MovieId]);
+  }, [state.id]);
 
   return (
     <SeatMainDivStyle style={!visible ? white : grey}>
@@ -129,7 +126,6 @@ const BookingHome = (props: Props) => {
             ModalVisibleFun={setVisible}
             SeatTempFun={setTempSeatArr}
             seatArr={tempSeatArr}
-            poster_path={state.path}
           />
         )}
       </ModelScreenStyle>

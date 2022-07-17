@@ -8,7 +8,7 @@ import {
 } from "../Styles/Card.style";
 import { fakeImg, imgUrl } from "../constants/global";
 
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 type Props = {
   data: ApiData[];
@@ -21,7 +21,6 @@ type ApiData = {
 
 
 const Card = ({ data }: Props) => {
-  const navigate = useNavigate();
   return (
     <CardsStyle>
       {data.map((item: ApiData , index) => {
@@ -32,16 +31,12 @@ const Card = ({ data }: Props) => {
               <CardsImageStyle src={fakeImg} alt="path" />
 
             }
-            <TitleStyle>{item.title}</TitleStyle>,
-            <ButtonStyle
-              onClick={(e:React.MouseEvent<HTMLButtonElement>) => {
-                navigate("/booking", {
-                  state: { path: imgUrl + item.poster_path, MovieId: item.id },
-                });
-              }}
-            >
+            <TitleStyle>{item.title}</TitleStyle>
+            <NavLink to={`/booking/${item.id}${item.poster_path}`}>
+            <ButtonStyle>    
               Book Now
             </ButtonStyle>
+            </NavLink>
           </CardStyle>
         );
       })}

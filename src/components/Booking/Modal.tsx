@@ -9,20 +9,22 @@ import {
   SeatHeading,
   SeatHeadingH3,
 } from "../Styles/Modal.styles";
+import { imgUrl } from "../constants/global";
+import { useParams } from "react-router-dom";
 import close from '../Assets/Xclose.png'
 type Props = {
   SeatTempFun: (arr: string[]) => void;
   ModalVisibleFun: (arr: boolean) => void;
   seatArr: string[];
-  poster_path: string;
 };
 
 const Modal = ({
   SeatTempFun,
   ModalVisibleFun,
   seatArr,
-  poster_path,
 }: Props) => {
+
+  const state = useParams()
   let total = seatArr.length * 250;
   let SGST = (total * 12) / 100;
 
@@ -41,7 +43,7 @@ const Modal = ({
       <article>
         <ModeldataFlex>
           <article>
-            <ImageStyles src={poster_path} alt="movie" />
+            <ImageStyles src={imgUrl+state.path} alt="movie" />
           </article>
           <article>
             <SeatHeadingH3>Seats:</SeatHeadingH3>
