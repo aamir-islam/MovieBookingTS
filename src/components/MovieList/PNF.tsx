@@ -1,16 +1,13 @@
 import React from "react";
-import PNFimg from "../Assets/pageNotFound.png";
+import pnfImg from "../Assets/pageNotFound.png";
 import { HeadingPNF, PNFImage, PNFMainDiv } from "../Styles/PNF.style";
 
-
-type Props = {};
-
-const PNF = (props: Props) => {
+const PNF = () => {
   return (
-    < PNFMainDiv>
-    <HeadingPNF>Sorry,there is no result for keyword you searched</HeadingPNF>
-      <PNFImage src={PNFimg} alt="pnf" />
-    </ PNFMainDiv>
+    <PNFMainDiv>
+      <HeadingPNF>Sorry,there is no result for keyword you searched</HeadingPNF>
+      <PNFImage src={pnfImg} alt="pnf" />
+    </PNFMainDiv>
   );
 };
 

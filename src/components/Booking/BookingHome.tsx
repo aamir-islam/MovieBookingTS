@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import vector from "../Assets/Vector.png";
 import { useParams } from "react-router-dom";
-import BlackSeat from "../Assets/BlackSeat.svg";
-import WhiteSeat from "../Assets/whiteSeat.svg";
-import BlueSeat from "../Assets/blueSeat.svg";
+import SvgImg from '../Assets/SvgImg'
 import Modal from "./Modal";
 import {
   SeatImgStyle,
@@ -99,13 +97,13 @@ const BookingHome = () => {
                       switch (selectedSeat !== null &&
                         selectedSeat.includes(item + set)) {
                         case true:
-                          return <img src={BlackSeat} alt="blackSeat" />;
+                          return <SvgImg imageColor="#626262" />
                         default:
                           switch (seatSelector.includes(item + set)) {
                             case true:
-                              return <img src={BlueSeat} alt="blueSeat" />;
+                              return <SvgImg imageColor="#724FD8" />
                             default:
-                              return <img src={WhiteSeat} alt="whiteSeat" />;
+                              return <SvgImg imageColor="#DADADA" />
                           }
                       }
                     })()}
