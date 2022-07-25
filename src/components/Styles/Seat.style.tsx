@@ -51,11 +51,21 @@ export const SeatButtonStyle = styled.button`
   margin: 109 auto 152px auto;
   color: white;
   background-color: #352c9a;
+  border: none;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  margin: 125px 450px 152px 450px;
+  margin: 115px 450px 180px 450px;
+  &:hover {
+    background-color: #724fd8;
+  }
+  &:active {
+    text-decoration: underline;
+  }
+  &:disabled {
+    background-color: #626262;
+  }
 `;
 
 export const SeatListStyle = styled.ol`

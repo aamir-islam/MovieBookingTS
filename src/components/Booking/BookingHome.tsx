@@ -27,7 +27,7 @@ const data: Data = {
 const BookingHome = () => {
   const state = useParams();
   const [seatSelector, setSeatSelector] = useState<string[]>([]);
-  const [visible, setVisible] = useState<Boolean>(false);
+  const [visible, setVisible] = useState<boolean>(false);
   const [selectedSeat, setSelectedSeat] = useState<string | null>("");
 
   const ModalHandler = () => {
@@ -49,7 +49,7 @@ const BookingHome = () => {
     if(selectedSeat?.includes(key)){
       alert("already selected")
       let filterSeats = seatSelector.filter((item:string) => {
-        return selectedSeat.includes(key) !== seatSelector.includes(item);
+        return selectedSeat.includes(key) === seatSelector.includes(item);
       });
       setSeatSelector(filterSeats);
     }
@@ -115,7 +115,7 @@ const BookingHome = () => {
           );
         })}
         <SeatButtonStyle onClick={ModalHandler}>
-          Booking Confirm
+        Confirm Booking 
         </SeatButtonStyle>
       </SeatTableStyle>
 
