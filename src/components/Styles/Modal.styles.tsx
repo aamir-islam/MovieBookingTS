@@ -77,3 +77,14 @@ export const HeadingSmallStyle = styled.small`
   font-weight: 500;
   font-size: 12px;
 `;
+export const SeatNameStyle = styled.h1`
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0px;
+  width: 202px;
+  height: 47px;
+  text-align: start;
+  overflow: hidden;
+`;

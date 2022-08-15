@@ -9,6 +9,7 @@ import {
   CloseButton,
   SeatHeading,
   HeadingSmallStyle,
+  SeatNameStyle,
   SeatHeadingH3,
 } from "../Styles/Modal.styles";
 import { imgUrl } from "../constants/global";
@@ -54,7 +55,7 @@ const Modal = ({
           <article>
             <SeatHeadingH3>Seats:</SeatHeadingH3>
             <ModelDataFlex>
-            <SeatHeading >{seatArr.toString()}</SeatHeading>  
+            <SeatNameStyle >{seatArr.toString()}</SeatNameStyle>  
             </ModelDataFlex>
             <ModelDataFlex>
               <article>
