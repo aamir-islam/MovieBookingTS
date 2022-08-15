@@ -8,6 +8,7 @@ import {
   Heading5Style,
   CloseButton,
   SeatHeading,
+  HeadingSmallStyle,
   SeatHeadingH3,
 } from "../Styles/Modal.styles";
 import { imgUrl } from "../constants/global";
@@ -53,22 +54,20 @@ const Modal = ({
           <article>
             <SeatHeadingH3>Seats:</SeatHeadingH3>
             <ModelDataFlex>
-              {seatArr.map((SeatNo, index) => (
-                <SeatHeading key={index}>{SeatNo},</SeatHeading>
-              ))}
+            <SeatHeading >{seatArr.toString()}</SeatHeading>  
             </ModelDataFlex>
             <ModelDataFlex>
               <article>
                 <SeatHeading>{seatArr.length}*250:</SeatHeading>
-                <span>SGST(12%):</span>
+                <HeadingSmallStyle>SGST(12%):</HeadingSmallStyle>
                 <br />
-                <span>CGST(12%):</span>
+                <HeadingSmallStyle>CGST(12%):</HeadingSmallStyle>
               </article>
               <article>
                 <SeatHeading>{total}</SeatHeading>
-                <span>{SGST}</span>
+                <HeadingSmallStyle>{SGST}</HeadingSmallStyle>
                 <br />
-                <span>{SGST}</span>
+                <HeadingSmallStyle>{SGST}</HeadingSmallStyle>
               </article>
             </ModelDataFlex>
             <hr />

@@ -71,3 +71,9 @@ export const SeatHeadingH1 = styled.h1`
   width: 202px;
   height: 47.2px;
 `;
+export const HeadingSmallStyle = styled.small`
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+`;
