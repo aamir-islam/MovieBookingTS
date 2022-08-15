@@ -29,8 +29,8 @@ const Modal = ({
   const state = useParams()
   
   const ImagePath = localStorage.getItem(state.title ||'{}')
-  let total = seatArr.length * 250;
-  let SGST = (total * 12) / 100;
+  const total = seatArr.length * 250;
+  const SGST = (total * 12) / 100;
 
   const modalClose = () => {
     SeatTempFun([]);
