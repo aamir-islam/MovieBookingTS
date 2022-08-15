@@ -19,6 +19,7 @@ type Props = {
   seatArr: string[];
 };
 
+
 const Modal = ({
   SeatTempFun,
   ModalVisibleFun,
@@ -26,6 +27,8 @@ const Modal = ({
 }: Props) => {
 
   const state = useParams()
+  
+  const ImagePath = localStorage.getItem(state.title ||'{}')
   let total = seatArr.length * 250;
   let SGST = (total * 12) / 100;
 
@@ -45,7 +48,7 @@ const Modal = ({
       <article>
         <ModelDataFlex>
           <article>
-            <ImageStyles src={imgUrl+state.path} alt="movie" />
+            <ImageStyles src={imgUrl+ImagePath} alt="movie" />
           </article>
           <article>
             <SeatHeadingH3>Seats:</SeatHeadingH3>

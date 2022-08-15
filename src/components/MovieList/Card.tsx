@@ -20,6 +20,9 @@ type ApiData = {
 };
 
 const Card = ({ data }: Props) => {
+  const SetImagePath = (title:string,path:string)=>{
+    localStorage.setItem(title,path)
+  }
   return (
     <CardsStyle>
       {data.map((item: ApiData, index) => {
@@ -27,8 +30,8 @@ const Card = ({ data }: Props) => {
           <CardStyle key={index}>
             <CardsImageStyle src={item.poster_path ? imgUrl + item.poster_path : fakeImg} alt="path" />
             <TitleStyle>{item.title}</TitleStyle>
-            <NavLink to={`/booking/${item.id}${item.poster_path}`}>
-              <ButtonStyle>Book Now</ButtonStyle>
+            <NavLink to={`/booking/${item.id}/${item.title}`}>
+              <ButtonStyle onClick={()=>SetImagePath(item.title,item.poster_path)}>Book Now</ButtonStyle>
             </NavLink>
           </CardStyle>
         );
