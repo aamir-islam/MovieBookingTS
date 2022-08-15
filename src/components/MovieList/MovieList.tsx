@@ -18,13 +18,13 @@ type MovieData = {
 
 const MovieList = ({input}: Props) => {
 
-  const [data, setData] = useState<MovieData[]>([])
+  const [responseData, setResponseData] = useState<MovieData[]>([])
 
   const GetMovie = async (url:string) =>  {
     const res = await fetch(url);
     const resResults:obj = await res.json();
     const result = resResults.results;
-    setData(result);
+    setResponseData(result);
 
   };  
   useEffect(()=>{
@@ -37,7 +37,7 @@ const MovieList = ({input}: Props) => {
   },[input])
   return (
     <CardDivStyle>
-       {data.length === 0 ? <PNF /> : <Card data={data} />} 
+       {responseData.length === 0 ? <PNF /> : <Card responseData={responseData} />} 
     </CardDivStyle>
   )
 }

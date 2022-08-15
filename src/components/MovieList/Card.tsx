@@ -11,7 +11,7 @@ import { fakeImg, imgUrl } from "../constants/global";
 import { NavLink } from "react-router-dom";
 
 type Props = {
-  data: ApiData[];
+  responseData: ApiData[];
 };
 type ApiData = {
   poster_path: string;
@@ -19,13 +19,13 @@ type ApiData = {
   id: number;
 };
 
-const Card = ({ data }: Props) => {
+const Card = ({ responseData }: Props) => {
   const SetImagePath = (title:string,path:string)=>{
     localStorage.setItem(title,path)
   }
   return (
     <CardsStyle>
-      {data.map((item: ApiData, index) => {
+      {responseData.map((item: ApiData, index) => {
         return (
           <CardStyle key={index}>
             <CardsImageStyle src={item.poster_path ? imgUrl + item.poster_path : fakeImg} alt="path" />
