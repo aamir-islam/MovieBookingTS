@@ -28,7 +28,7 @@ const BookingHome = () => {
   const state = useParams();
   const [seatSelector, setSeatSelector] = useState<string[]>([]);
   const [visible, setVisible] = useState<boolean>(false);
-  const [selectedSeat, setSelectedSeat] = useState<string | null>("");
+  const [bookedSeat, setBookedSeat] = useState<string | null>("");
 
   const ModalHandler = () => {
     setVisible(true);
@@ -38,18 +38,18 @@ const BookingHome = () => {
     } else {
       localStorage.setItem(
         JSON.stringify(state.id),
-        selectedSeat + seatSelector.toString()
+        bookedSeat + seatSelector.toString()
       );
-      setSelectedSeat(localStorage.getItem(JSON.stringify(state.id)));
+      setBookedSeat(localStorage.getItem(JSON.stringify(state.id)));
       setVisible(true);
     }
   };
 
   const SeatHandler = (key: string) => {
-    if(selectedSeat?.includes(key)){
+    if(bookedSeat?.includes(key)){
       alert("already selected")
       let filterSeats = seatSelector.filter((item:string) => {
-        return selectedSeat.includes(key) === seatSelector.includes(item);
+        return bookedSeat.includes(key) === seatSelector.includes(item);
       });
       setSeatSelector(filterSeats);
     }
@@ -67,7 +67,7 @@ const BookingHome = () => {
 
   useEffect(() => {
     if (localStorage.getItem(JSON.stringify(state.id)) !== null) {
-      setSelectedSeat(localStorage.getItem(JSON.stringify(state.id)));
+      setBookedSeat(localStorage.getItem(JSON.stringify(state.id)));
     }
   }, [state.id]);
 
@@ -95,8 +95,8 @@ const BookingHome = () => {
                   >
                     {(() => {
                       switch (true) {
-                        case selectedSeat !== null &&
-                        selectedSeat.includes(item + set):
+                        case bookedSeat !== null &&
+                        bookedSeat.includes(item + set):
                           return <SvgImg imageColor="#626262" />
                         case seatSelector.includes(item + set):
                           return <SvgImg imageColor="#724FD8" />
