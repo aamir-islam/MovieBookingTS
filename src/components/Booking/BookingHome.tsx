@@ -94,19 +94,17 @@ const BookingHome = () => {
                     }}
                   >
                     {(() => {
-                      switch (selectedSeat !== null &&
-                        selectedSeat.includes(item + set)) {
-                        case true:
+                      switch (true) {
+                        case selectedSeat !== null &&
+                        selectedSeat.includes(item + set):
                           return <SvgImg imageColor="#626262" />
+                        case seatSelector.includes(item + set):
+                          return <SvgImg imageColor="#724FD8" />
                         default:
-                          switch (seatSelector.includes(item + set)) {
-                            case true:
-                              return <SvgImg imageColor="#724FD8" />
-                            default:
-                              return <SvgImg imageColor="#DADADA" />
+                          return <SvgImg imageColor="#DADADA" />
                           }
-                      }
-                    })()}
+                      }  
+                    )()}
                   </li>
                 );
               })}
