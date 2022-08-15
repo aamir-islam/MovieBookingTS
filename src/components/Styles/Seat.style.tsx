@@ -36,8 +36,6 @@ export const ListStyle = styled.ol`
   justify-content: space-evenly;
   li {
     text-align: center;
-    width: 23px;
-    height: 58px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
