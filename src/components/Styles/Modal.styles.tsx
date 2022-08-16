@@ -8,7 +8,7 @@ export const ModelScreenStyle = styled.article`
   position: fixed;
 `;
 
-export const ModelStyle = styled.article`
+export const ModelStyle = styled.main`
   height: 578px;
   width: 640px;
   left: 50%;
