@@ -8,12 +8,11 @@ import {
   SeatMainDivStyle,
   SeatStyle,
   SeatTableStyle,
-  SeatButtonStyle,
   ListStyle,
   SeatListStyle,
   SeatRowStyle,
 } from "../Styles/Seat.style";
-
+import Button from '../Button/Button'
 const ColumnNo: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 interface Data {
   id: string[];
@@ -46,23 +45,23 @@ const BookingHome = () => {
   };
 
   const SeatHandler = (key: string) => {
-    if(bookedSeat?.includes(key)){
+    if (bookedSeat?.includes(key)) {
       alert("already selected")
-      let filterSeats = seatSelector.filter((item:string) => {
+      let filterSeats = seatSelector.filter((item: string) => {
         return bookedSeat.includes(key) === seatSelector.includes(item);
       });
       setSeatSelector(filterSeats);
     }
-    else{
-    if (seatSelector.includes(key)) {
-      let newSeat = seatSelector.filter((item: string) => {
-        return key !== item;
-      });
-      setSeatSelector(newSeat);
-    } else {
-      setSeatSelector((prvSeatSelector) => [...prvSeatSelector, key]);
+    else {
+      if (seatSelector.includes(key)) {
+        let newSeat = seatSelector.filter((item: string) => {
+          return key !== item;
+        });
+        setSeatSelector(newSeat);
+      } else {
+        setSeatSelector((prvSeatSelector) => [...prvSeatSelector, key]);
+      }
     }
-  }
   };
 
   useEffect(() => {
@@ -85,36 +84,36 @@ const BookingHome = () => {
             <SeatStyle key={item}>
               <SeatRowStyle>{item}</SeatRowStyle>
               <SeatListStyle>
-              {data.seat.map((set: number) => {
-                return (
-                  <li
-                    key={set}
-                    onClick={() => {
-                      SeatHandler(item + set);
-                    }}
-                  >
-                    {(() => {
-                      switch (true) {
-                        case bookedSeat !== null &&
-                        bookedSeat.includes(item + set):
-                            return <SeatIcon imageColor="#626262"/>
-                        case seatSelector.includes(item + set):
-                            return <SeatIcon imageColor="#724FD8"/>
-                        default:
-                            return <SeatIcon imageColor="#DADADA"/>
-                          }
-                      }  
-                    )()}
-                  </li>
-                );
-              })}
+                {data.seat.map((set: number) => {
+                  return (
+                    <li
+                      key={set}
+                      onClick={() => {
+                        SeatHandler(item + set);
+                      }}
+                    >
+                      {(() => {
+                        switch (true) {
+                          case bookedSeat !== null &&
+                            bookedSeat.includes(item + set):
+                            return <SeatIcon imageColor="#626262" />
+                          case seatSelector.includes(item + set):
+                            return <SeatIcon imageColor="#724FD8" />
+                          default:
+                            return <SeatIcon imageColor="#DADADA" />
+                        }
+                      }
+                      )()}
+                    </li>
+                  );
+                })}
               </SeatListStyle>
             </SeatStyle>
           );
         })}
-        <SeatButtonStyle onClick={ModalHandler}>
-        Confirm Booking 
-        </SeatButtonStyle>
+        <Button onClick={ModalHandler}>
+          Confirm Booking
+        </Button>
       </SeatTableStyle>
 
       {visible && (

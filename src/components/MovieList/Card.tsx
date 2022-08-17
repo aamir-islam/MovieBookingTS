@@ -2,10 +2,10 @@ import React from "react";
 import {
   CardStyle,
   CardsStyle,
-  ButtonStyle,
   TitleStyle,
   CardsImageStyle,
 } from "../Styles/Card.style";
+import Button from '../Button/Button'
 import { fakeImg, imgUrl } from "../constants/global";
 
 import { NavLink } from "react-router-dom";
@@ -20,8 +20,8 @@ type ApiData = {
 };
 
 const Card = ({ responseData }: Props) => {
-  const SetImagePath = (title:string,path:string)=>{
-    localStorage.setItem(title,path)
+  const SetImagePath = (title: string, path: string) => {
+    localStorage.setItem(title, path)
   }
   return (
     <CardsStyle>
@@ -31,7 +31,7 @@ const Card = ({ responseData }: Props) => {
             <CardsImageStyle src={item.poster_path ? imgUrl + item.poster_path : fakeImg} alt="path" />
             <TitleStyle>{item.title}</TitleStyle>
             <NavLink to={`/booking/${item.id}/${item.title}`}>
-              <ButtonStyle onClick={()=>SetImagePath(item.title,item.poster_path)}>Book Now</ButtonStyle>
+              <Button onClick={() => SetImagePath(item.title, item.poster_path)}>Book Now</Button>
             </NavLink>
           </CardStyle>
         );

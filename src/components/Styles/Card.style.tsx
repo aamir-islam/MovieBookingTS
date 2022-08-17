@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ButtonStyle } from '../Styles/Button.style'
 import searchIcon from "../Assets/SearchBar.png";
 
 export const HeaderStyle = styled.header`
@@ -49,35 +50,6 @@ export const TitleStyle = styled.h1`
   z-index: 2;
 `;
 
-export const ButtonStyle = styled.button`
-  position: absolute;
-  top: 245px;
-  left: 89px;
-  right: 87px;
-  bottom: 37px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  background-color: #352c9a;
-  color: white;
-  width: 145px;
-  height: 43px;
-  margin-top: 20px;
-  border-style: none;
-  opacity: 0;
-  z-index: 2;
-
-  &:hover {
-    background-color: #724fd8;
-  }
-  &:active {
-    text-decoration: underline;
-  }
-  &:disabled {
-    background-color: #626262;
-  }
-`;
 
 export const CardDivStyle = styled.article`
   max-width: 1200px;
@@ -96,6 +68,7 @@ export const CardsImageStyle = styled.img`
   height: 100%;
   border-radius: 20px;
   display: block;
+  position: relative;
 `;
 
 export const CardStyle = styled.article`
@@ -103,6 +76,13 @@ export const CardStyle = styled.article`
   width: 350px;
   border-radius: 20px;
   position: relative;
+  ${ButtonStyle}{
+    opacity: 0;
+    z-index: 2;
+    width: 145px;
+    margin: 20px;
+    position: absolute;
+  }
   &::after {
   content: '';
   position: absolute;
@@ -113,6 +93,7 @@ export const CardStyle = styled.article`
   transition: 250ms ease-out;
   border-radius: 20px;
 }
+
 &:hover::after {
   opacity: 0.6;
   background-color: #626262;
@@ -123,6 +104,7 @@ export const CardStyle = styled.article`
 }
 &:hover  ${ButtonStyle} {
   opacity: 1;
+
 
 }
   @media (max-width: 1230px) {
