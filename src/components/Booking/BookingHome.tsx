@@ -45,24 +45,15 @@ const BookingHome = () => {
   };
 
   const SeatHandler = (key: string) => {
-    if (bookedSeat?.includes(key)) {
-      alert("already selected")
-      let filterSeats = seatSelector.filter((item: string) => {
-        return bookedSeat.includes(key) === seatSelector.includes(item);
+    if (seatSelector.includes(key)) {
+      let newSeat = seatSelector.filter((item: string) => {
+        return key !== item;
       });
-      setSeatSelector(filterSeats);
+      setSeatSelector(newSeat);
+    } else {
+      setSeatSelector((prvSeatSelector) => [...prvSeatSelector, key]);
     }
-    else {
-      if (seatSelector.includes(key)) {
-        let newSeat = seatSelector.filter((item: string) => {
-          return key !== item;
-        });
-        setSeatSelector(newSeat);
-      } else {
-        setSeatSelector((prvSeatSelector) => [...prvSeatSelector, key]);
-      }
-    }
-  };
+  }
 
   useEffect(() => {
     if (localStorage.getItem(JSON.stringify(state.id)) !== null) {
@@ -88,9 +79,6 @@ const BookingHome = () => {
                   return (
                     <li
                       key={set}
-                      onClick={() => {
-                        SeatHandler(item + set);
-                      }}
                     >
                       {(() => {
                         switch (true) {
@@ -98,9 +86,13 @@ const BookingHome = () => {
                             bookedSeat.includes(item + set):
                             return <SeatIcon imageColor="#626262" />
                           case seatSelector.includes(item + set):
-                            return <SeatIcon imageColor="#724FD8" />
+                            return <SeatIcon imageColor="#724FD8" onClick={() => {
+                              SeatHandler(item + set);
+                            }} />
                           default:
-                            return <SeatIcon imageColor="#DADADA" />
+                            return <SeatIcon imageColor="#DADADA" onClick={() => {
+                              SeatHandler(item + set);
+                            }} />
                         }
                       }
                       )()}
