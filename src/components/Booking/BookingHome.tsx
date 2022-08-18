@@ -67,7 +67,7 @@ const BookingHome = () => {
       <SeatTableStyle>
         <ListStyle>
           {ColumnNo.map((ColNo) => {
-            return <li key={ColNo}>{ColNo}</li>;
+            return <li data-testid="list-item" key={ColNo}>{ColNo}</li>;
           })}
         </ListStyle>
         {data.id.map((item) => {
