@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import axios from 'axios';
 import Card from './Card';
 import PNF from './PNF'
 import { CardDivStyle } from "../Styles/Card.style";
@@ -19,12 +20,10 @@ type MovieData = {
 const MovieList = ({ input }: Props) => {
 
   const [responseData, setResponseData] = useState<MovieData[]>([])
-
   const GetMovie = async (url: string) => {
     try {
-      const res = await fetch(url);
-      const resResults: obj = await res.json();
-      const result = resResults.results;
+      const res = await axios.get<obj>(url);
+      const result = res.data.results;
       setResponseData(result);
 
     } catch (e) {
