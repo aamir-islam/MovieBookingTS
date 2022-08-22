@@ -10,9 +10,13 @@ const data = [
     title: "Jurassic World Dominion",
   },
 ];
-describe("button to the", () => {
-  render(<BrowserRouter><Card responseData={data} /></BrowserRouter>);
+describe("testing Movie Cards", () => {
+  it('should take a snapshot', () => {
+    const { container } = render(<BrowserRouter><Card responseData={data} /></BrowserRouter>);
+    expect(container).toMatchSnapshot()
+  })
   it("image should be in Dom", () => {
+    render(<BrowserRouter><Card responseData={data} /></BrowserRouter>);
     const element = screen.getByRole<HTMLImageElement>("img");
     expect(element).toBeInTheDocument();
   })
