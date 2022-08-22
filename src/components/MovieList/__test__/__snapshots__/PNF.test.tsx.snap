@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing page not found snapshot for PageNotFound component 1`] = `
+<div>
+  <article
+    class="sc-bczRLJ iOnNGm"
+  >
+    <h2
+      class="sc-gsnTZi eDgErO"
+    >
+      Sorry,there is no result for keyword you searched
+    </h2>
+    <img
+      alt="pnf"
+      class="sc-dkzDqf cUotN"
+      src="pageNotFound.png"
+    />
+  </article>
+</div>
+`;

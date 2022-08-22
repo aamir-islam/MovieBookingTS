@@ -79,12 +79,13 @@ const BookingHome = () => {
                   return (
                     <li
                       key={set}
+
                     >
                       {(() => {
                         switch (true) {
                           case bookedSeat !== null &&
                             bookedSeat.includes(item + set):
-                            return <SeatIcon imageColor="#626262" />
+                            return <SeatIcon data-testid="Seat-list" imageColor="#626262" />
                           case seatSelector.includes(item + set):
                             return <SeatIcon imageColor="#724FD8" onClick={() => {
                               SeatHandler(item + set);

@@ -1,0 +1,1731 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`booking  testing should take a snapshot 1`] = `
+<div>
+  <main
+    class="sc-evZas cavpzk"
+  >
+    <img
+      alt="vector"
+      class="sc-breuTD ecmTXS"
+      src="Vector.png"
+    />
+    <article
+      class="sc-ksZaOG hNjmdv"
+    >
+      <ol
+        class="sc-fEOsli bTNivO"
+      >
+        <li
+          data-testid="list-item"
+        >
+          1
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          2
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          3
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          4
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          5
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          6
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          7
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          8
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          9
+        </li>
+        <li
+          data-testid="list-item"
+        >
+          10
+        </li>
+      </ol>
+      <article
+        class="sc-hAZoDl iRGVzu"
+      >
+        <article
+          class="sc-fnykZs coYTcE"
+        >
+          A
+        </article>
+        <ol
+          class="sc-bjUoiL hqvvwr"
+        >
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+        </ol>
+      </article>
+      <article
+        class="sc-hAZoDl iRGVzu"
+      >
+        <article
+          class="sc-fnykZs coYTcE"
+        >
+          B
+        </article>
+        <ol
+          class="sc-bjUoiL hqvvwr"
+        >
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+        </ol>
+      </article>
+      <article
+        class="sc-hAZoDl iRGVzu"
+      >
+        <article
+          class="sc-fnykZs coYTcE"
+        >
+          C
+        </article>
+        <ol
+          class="sc-bjUoiL hqvvwr"
+        >
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+        </ol>
+      </article>
+      <article
+        class="sc-hAZoDl iRGVzu"
+      >
+        <article
+          class="sc-fnykZs coYTcE"
+        >
+          D
+        </article>
+        <ol
+          class="sc-bjUoiL hqvvwr"
+        >
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              data-testid="Svg-Item"
+              fill="none"
+              height="80"
+              viewBox="0 0 100 80"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#DADADA"
+                height="41"
+                stroke="white"
+                width="41"
+                x="29.5"
+                y="12.5"
+              />
+              <mask
+                fill="white"
+                id="path-2-inside-1_324_106"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M28 26H6V71H94V26H72V55H28V26Z"
+                  fill-rule="evenodd"
+                />
+              </mask>
+              <path
+                clip-rule="evenodd"
+                d="M28 26H6V71H94V26H72V55H28V26Z"
+                fill="#DADADA"
+                fill-rule="evenodd"
+              />
+              <path
+                d="M6 26V25H5V26H6ZM28 26H29V25H28V26ZM6 71H5V72H6V71ZM94 71V72H95V71H94ZM94 26H95V25H94V26ZM72 26V25H71V26H72ZM72 55V56H73V55H72ZM28 55H27V56H28V55ZM6 27H28V25H6V27ZM7 71V26H5V71H7ZM94 70H6V72H94V70ZM93 26V71H95V26H93ZM72 27H94V25H72V27ZM71 26V55H73V26H71ZM72 54H28V56H72V54ZM29 55V26H27V55H29Z"
+                fill="white"
+                mask="url(#path-2-inside-1_324_106)"
+              />
+            </svg>
+          </li>
+        </ol>
+      </article>
+      <button
+        class="sc-crXcEl caRTSa"
+        data-testid="closeFunc"
+      >
+        Confirm Booking
+      </button>
+    </article>
+  </main>
+</div>
+`;

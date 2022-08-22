@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API testing test movie list 1`] = `
+<div>
+  <article
+    class="sc-jSMfEi jQBanV"
+  >
+    <article
+      class="sc-papXJ dPuUIy"
+    >
+      <h2
+        class="sc-jqUVSM fWYeLJ"
+      >
+        Sorry,there is no result for keyword you searched
+      </h2>
+      <img
+        alt="pnf"
+        class="sc-kDDrLX kdEeEq"
+        src="pageNotFound.png"
+      />
+    </article>
+  </article>
+</div>
+`;

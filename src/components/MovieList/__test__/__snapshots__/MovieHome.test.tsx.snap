@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test for movie card should take a snapshot 1`] = `
+<div>
+  <header
+    class="sc-gsnTZi ToOMS"
+  >
+    <h1
+      class="sc-dkzDqf laljGH"
+    >
+      Book Tickets
+    </h1>
+    <input
+      class="sc-hKMtZM jdtSxD"
+      placeholder="Search"
+      type="text"
+    />
+    <article
+      class="sc-jSMfEi jQBanV"
+    >
+      <article
+        class="sc-papXJ dPuUIy"
+      >
+        <h2
+          class="sc-jqUVSM fWYeLJ"
+        >
+          Sorry,there is no result for keyword you searched
+        </h2>
+        <img
+          alt="pnf"
+          class="sc-kDDrLX kdEeEq"
+          src="pageNotFound.png"
+        />
+      </article>
+    </article>
+  </header>
+</div>
+`;

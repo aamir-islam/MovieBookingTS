@@ -8,8 +8,8 @@ import BookingHome from './components/Booking/BookingHome';
 function App() {
   return (
     <div >
-     <Routes>
-        <Route path="/" element={<MovieHome />} />
+      <Routes>
+        <Route data-testid="home_route" path="/" element={<MovieHome />} />
         <Route path="/booking/:id/:title" element={<BookingHome />} />
       </Routes>
     </div>

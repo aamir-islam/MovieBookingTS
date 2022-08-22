@@ -8,6 +8,7 @@ type Props = {
 const SeatIcon = ({ imageColor, onClick }: Props) => {
   return (
     <svg
+      data-testid="Svg-Item"
       onClick={onClick}
       width="100"
       height="80"
