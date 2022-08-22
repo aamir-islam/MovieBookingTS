@@ -29,58 +29,59 @@ const Modal = ({
 }: Props) => {
 
   const state = useParams()
-  
-  const ImagePath = localStorage.getItem(state.title ||'{}')
+
+  const ImagePath = localStorage.getItem(state.title || '{}')
   const total = seatArr.length * 250;
   const SGST = (total * 12) / 100;
 
   const modalClose = () => {
-    SeatTempFun([]);
     ModalVisibleFun(false);
+    SeatTempFun([]);
+
   };
 
   return (
-    <ModelScreenStyle>  
-    <ModelStyle>
-      <CloseButton>
-        <img onClick={modalClose} src={close} alt="close" />
-      </CloseButton>
-      <HeadingStyle>Thank you for booking</HeadingStyle>
-      <Heading5Style>Order Summary</Heading5Style>
-      <article>
-        <ModelDataFlex>
-          <article>
-            <ImageStyles src={imgUrl+ImagePath} alt="movie" />
-          </article>
-          <article>
-            <SeatHeadingH3>Seats:</SeatHeadingH3>
-            <ModelDataFlex>
-            <SeatNameStyle >{seatArr.toString()}</SeatNameStyle>  
-            </ModelDataFlex>
-            <ModelDataFlex>
-              <article>
-                <SeatHeading>{seatArr.length}*250:</SeatHeading>
-                <HeadingSmallStyle>SGST(12%):</HeadingSmallStyle>
-                <br />
-                <HeadingSmallStyle>CGST(12%):</HeadingSmallStyle>
-              </article>
-              <article>
-                <SeatHeading>{total}</SeatHeading>
-                <HeadingSmallStyle>{SGST}</HeadingSmallStyle>
-                <br />
-                <HeadingSmallStyle>{SGST}</HeadingSmallStyle>
-              </article>
-            </ModelDataFlex>
-            <hr />
-            <ModelDataFlex>
-              <SeatHeading>Total:</SeatHeading>
-              <SeatHeading>{total + SGST * 2}</SeatHeading>
-            </ModelDataFlex>
-          </article>
-        </ModelDataFlex>
-      </article>
-    </ModelStyle>
-    </ModelScreenStyle>  
+    <ModelScreenStyle>
+      <ModelStyle>
+        <CloseButton data-testid="closeFunc" onClick={modalClose}>
+          <img src={close} alt="close" />
+        </CloseButton>
+        <HeadingStyle>Thank you for booking</HeadingStyle>
+        <Heading5Style>Order Summary</Heading5Style>
+        <article>
+          <ModelDataFlex>
+            <article>
+              <ImageStyles src={imgUrl + ImagePath} alt="movie" />
+            </article>
+            <article>
+              <SeatHeadingH3>Seats:</SeatHeadingH3>
+              <ModelDataFlex>
+                <SeatNameStyle >{seatArr.toString()}</SeatNameStyle>
+              </ModelDataFlex>
+              <ModelDataFlex>
+                <article>
+                  <SeatHeading>{seatArr.length}*250:</SeatHeading>
+                  <HeadingSmallStyle>SGST(12%):</HeadingSmallStyle>
+                  <br />
+                  <HeadingSmallStyle>CGST(12%):</HeadingSmallStyle>
+                </article>
+                <article>
+                  <SeatHeading>{total}</SeatHeading>
+                  <HeadingSmallStyle>{SGST}</HeadingSmallStyle>
+                  <br />
+                  <HeadingSmallStyle>{SGST}</HeadingSmallStyle>
+                </article>
+              </ModelDataFlex>
+              <hr />
+              <ModelDataFlex>
+                <SeatHeading>Total:</SeatHeading>
+                <SeatHeading>{total + SGST * 2}</SeatHeading>
+              </ModelDataFlex>
+            </article>
+          </ModelDataFlex>
+        </article>
+      </ModelStyle>
+    </ModelScreenStyle>
   );
 };
 

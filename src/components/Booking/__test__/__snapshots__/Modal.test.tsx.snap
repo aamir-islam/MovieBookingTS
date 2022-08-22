@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal test should take a snapshot 1`] = `
+<div>
+  <article
+    class="sc-bczRLJ dyGsPf"
+  >
+    <main
+      class="sc-gsnTZi jcrqNa"
+    >
+      <button
+        class="sc-eCYdqJ cCobBR"
+        data-testid="closeFunc"
+      >
+        <img
+          alt="close"
+          src="Xclose.png"
+        />
+      </button>
+      <h1
+        class="sc-dkzDqf jHTDOg"
+      >
+        Thank you for booking
+      </h1>
+      <h5
+        class="sc-hKMtZM kAGHsJ"
+      >
+        Order Summary
+      </h5>
+      <article>
+        <article
+          class="sc-gKXOVf frJWtB"
+        >
+          <article>
+            <img
+              alt="movie"
+              class="sc-jSMfEi cvEyfM"
+              src="https://image.tmdb.org/t/p/w500/null"
+            />
+          </article>
+          <article>
+            <h3
+              class="sc-papXJ ilwbdE"
+            >
+              Seats:
+            </h3>
+            <article
+              class="sc-gKXOVf frJWtB"
+            >
+              <h1
+                class="sc-iqcoie dIqnFt"
+              >
+                A1,B1,C1,D1,A2,B2,C3
+              </h1>
+            </article>
+            <article
+              class="sc-gKXOVf frJWtB"
+            >
+              <article>
+                <h5
+                  class="sc-ftvSup gnwneK"
+                >
+                  7
+                  *250:
+                </h5>
+                <small
+                  class="sc-kDDrLX eRepAA"
+                >
+                  SGST(12%):
+                </small>
+                <br />
+                <small
+                  class="sc-kDDrLX eRepAA"
+                >
+                  CGST(12%):
+                </small>
+              </article>
+              <article>
+                <h5
+                  class="sc-ftvSup gnwneK"
+                >
+                  1750
+                </h5>
+                <small
+                  class="sc-kDDrLX eRepAA"
+                >
+                  210
+                </small>
+                <br />
+                <small
+                  class="sc-kDDrLX eRepAA"
+                >
+                  210
+                </small>
+              </article>
+            </article>
+            <hr />
+            <article
+              class="sc-gKXOVf frJWtB"
+            >
+              <h5
+                class="sc-ftvSup gnwneK"
+              >
+                Total:
+              </h5>
+              <h5
+                class="sc-ftvSup gnwneK"
+              >
+                2170
+              </h5>
+            </article>
+          </article>
+        </article>
+      </article>
+    </main>
+  </article>
+</div>
+`;
