@@ -1,6 +1,6 @@
 import React from "react";
-import pnfImg from "../Assets/pageNotFound.png";
-import { HeadingPNF, PNFImage, PNFMainDiv } from "../Styles/PNF.style";
+import pnfImg from "../../Assets/pageNotFound.png";
+import { HeadingPNF, PNFImage, PNFMainDiv } from "../../Styles/PNF.style";
 
 const PNF = () => {
   return (

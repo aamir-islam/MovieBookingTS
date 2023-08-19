@@ -11,33 +11,26 @@ import {
   HeadingSmallStyle,
   SeatNameStyle,
   SeatHeadingH3,
-} from "../Styles/Modal.styles";
-import { imgUrl } from "../constants/global";
+} from "../../Styles/Modal.styles";
+import { imgUrl } from "../../constants/global";
 import { useParams } from "react-router-dom";
-import close from '../Assets/Xclose.png'
+import close from "../../Assets/Xclose.png";
 type Props = {
   SeatTempFun: (arr: string[]) => void;
   ModalVisibleFun: (arr: boolean) => void;
   seatArr: string[];
 };
 
+const Modal = ({ SeatTempFun, ModalVisibleFun, seatArr }: Props) => {
+  const state = useParams();
 
-const Modal = ({
-  SeatTempFun,
-  ModalVisibleFun,
-  seatArr,
-}: Props) => {
-
-  const state = useParams()
-
-  const ImagePath = localStorage.getItem(state.title || '{}')
+  const ImagePath = localStorage.getItem(state.title || "{}");
   const total = seatArr.length * 250;
   const SGST = (total * 12) / 100;
 
   const modalClose = () => {
     ModalVisibleFun(false);
     SeatTempFun([]);
-
   };
 
   return (
@@ -56,7 +49,7 @@ const Modal = ({
             <article>
               <SeatHeadingH3>Seats:</SeatHeadingH3>
               <ModelDataFlex>
-                <SeatNameStyle >{seatArr.toString()}</SeatNameStyle>
+                <SeatNameStyle>{seatArr.toString()}</SeatNameStyle>
               </ModelDataFlex>
               <ModelDataFlex>
                 <article>
