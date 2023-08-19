@@ -4,9 +4,9 @@ import {
   CardsStyle,
   TitleStyle,
   CardsImageStyle,
-} from "../Styles/Card.style";
-import Button from '../Button/Button'
-import { fakeImg, imgUrl } from "../constants/global";
+} from "../../Styles/Card.style";
+import Button from "../Button/Button";
+import { fakeImg, imgUrl } from "../../constants/global";
 
 import { NavLink } from "react-router-dom";
 
@@ -21,17 +21,24 @@ type ApiData = {
 
 const Card = ({ responseData }: Props) => {
   const SetImagePath = (title: string, path: string) => {
-    localStorage.setItem(title, path)
-  }
+    localStorage.setItem(title, path);
+  };
   return (
     <CardsStyle>
       {responseData.map((item: ApiData, index) => {
         return (
           <CardStyle key={index}>
-            <CardsImageStyle src={item.poster_path ? imgUrl + item.poster_path : fakeImg} alt="path" />
+            <CardsImageStyle
+              src={item.poster_path ? imgUrl + item.poster_path : fakeImg}
+              alt="path"
+            />
             <TitleStyle>{item.title}</TitleStyle>
             <NavLink to={`/booking/${item.id}/${item.title}`}>
-              <Button onClick={() => SetImagePath(item.title, item.poster_path)}>Book Now</Button>
+              <Button
+                onClick={() => SetImagePath(item.title, item.poster_path)}
+              >
+                Book Now
+              </Button>
             </NavLink>
           </CardStyle>
         );

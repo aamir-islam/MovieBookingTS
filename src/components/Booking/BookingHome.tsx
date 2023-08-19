@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import vector from "../Assets/Vector.png";
+import vector from "../../Assets/Vector.png";
 import { useParams } from "react-router-dom";
-import SeatIcon from '../Assets/SeatIcon'
+import SeatIcon from "../../Assets/SeatIcon";
 import Modal from "./Modal";
 import {
   SeatImgStyle,
@@ -11,8 +11,8 @@ import {
   ListStyle,
   SeatListStyle,
   SeatRowStyle,
-} from "../Styles/Seat.style";
-import Button from '../Button/Button'
+} from "../../Styles/Seat.style";
+import Button from "../Button/Button";
 const ColumnNo: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 interface Data {
   id: string[];
@@ -53,7 +53,7 @@ const BookingHome = () => {
     } else {
       setSeatSelector((prvSeatSelector) => [...prvSeatSelector, key]);
     }
-  }
+  };
 
   useEffect(() => {
     if (localStorage.getItem(JSON.stringify(state.id)) !== null) {
@@ -67,7 +67,11 @@ const BookingHome = () => {
       <SeatTableStyle>
         <ListStyle>
           {ColumnNo.map((ColNo) => {
-            return <li data-testid="list-item" key={ColNo}>{ColNo}</li>;
+            return (
+              <li data-testid="list-item" key={ColNo}>
+                {ColNo}
+              </li>
+            );
           })}
         </ListStyle>
         {data.id.map((item) => {
@@ -77,26 +81,37 @@ const BookingHome = () => {
               <SeatListStyle>
                 {data.seat.map((set: number) => {
                   return (
-                    <li
-                      key={set}
-
-                    >
+                    <li key={set}>
                       {(() => {
                         switch (true) {
                           case bookedSeat !== null &&
                             bookedSeat.includes(item + set):
-                            return <SeatIcon data-testid="Seat-list" imageColor="#626262" />
+                            return (
+                              <SeatIcon
+                                data-testid="Seat-list"
+                                imageColor="#626262"
+                              />
+                            );
                           case seatSelector.includes(item + set):
-                            return <SeatIcon imageColor="#724FD8" onClick={() => {
-                              SeatHandler(item + set);
-                            }} />
+                            return (
+                              <SeatIcon
+                                imageColor="#724FD8"
+                                onClick={() => {
+                                  SeatHandler(item + set);
+                                }}
+                              />
+                            );
                           default:
-                            return <SeatIcon imageColor="#DADADA" onClick={() => {
-                              SeatHandler(item + set);
-                            }} />
+                            return (
+                              <SeatIcon
+                                imageColor="#DADADA"
+                                onClick={() => {
+                                  SeatHandler(item + set);
+                                }}
+                              />
+                            );
                         }
-                      }
-                      )()}
+                      })()}
                     </li>
                   );
                 })}
@@ -104,9 +119,7 @@ const BookingHome = () => {
             </SeatStyle>
           );
         })}
-        <Button onClick={ModalHandler}>
-          Confirm Booking
-        </Button>
+        <Button onClick={ModalHandler}>Confirm Booking</Button>
       </SeatTableStyle>
 
       {visible && (
